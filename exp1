@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bus Booking System</title>
+</head>
+<body>
+
+    <h2>Bus Ticket Booking</h2>
+
+    <form>
+        <label>Full Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Phone Number:</label><br>
+        <input type="tel" name="phone" required><br><br>
+
+        <label>From:</label><br>
+        <input type="text" name="from" required><br><br>
+
+        <label>To:</label><br>
+        <input type="text" name="to" required><br><br>
+
+        <label>Travel Date:</label><br>
+        <input type="date" name="date" required><br><br>
+
+        <label>Number of Seats:</label><br>
+        <input type="number" name="seats" min="1" max="6" required><br><br>
+
+        <label>Bus Type:</label><br>
+        <select name="busType">
+            <option>AC</option>
+            <option>Non-AC</option>
+            <option>Sleeper</option>
+        </select><br><br>
+
+        <input type="submit" value="Book Ticket">
+
+    </form>
+
+</body>
+</html>
